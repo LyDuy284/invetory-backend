@@ -1,4 +1,3 @@
-// src/swagger.js
 const swaggerJsdoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 const path = require('path');
@@ -26,7 +25,6 @@ const options = {
       },
     },
   },
-  // đọc phần comment swagger trong các file routes
   apis: [path.join(__dirname, 'routes', '*.js')],
 };
 

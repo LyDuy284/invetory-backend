@@ -1,25 +1,3 @@
-// const express = require('express');
-// const router = express.Router();
-// const auth = require('../middleware/auth.middleware');
-// const { upload } = require('../config/cloudinary');
-// const {
-//   createProduct,
-//   getProducts,
-//   getProductById,
-//   updateProduct,
-//   deleteProduct,
-// } = require('../controllers/product.controller');
-
-// router.use(auth);
-
-// router.get('/', getProducts);
-// router.get('/:id', getProductById);
-// router.post('/', upload.single('image'), createProduct);
-// router.put('/:id', upload.single('image'), updateProduct);
-// router.delete('/:id', deleteProduct);
-
-// module.exports = router;
-
 const express = require('express');
 const router = express.Router();
 const auth = require('../middleware/auth.middleware');

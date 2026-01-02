@@ -1,20 +1,3 @@
-// const express = require('express');
-// const router = express.Router();
-// const auth = require('../middleware/auth.middleware');
-// const {
-//   createOrder,
-//   getOrders,
-//   updateOrderStatus,
-// } = require('../controllers/order.controller');
-
-// router.use(auth);
-
-// router.get('/', getOrders);
-// router.post('/', createOrder);
-// router.patch('/:id/status', updateOrderStatus);
-
-// module.exports = router;
-
 const express = require('express');
 const router = express.Router();
 const auth = require('../middleware/auth.middleware');
