@@ -1,6 +1,7 @@
 const swaggerJsdoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 const path = require('path');
+const { url } = require('inspector');
 
 const options = {
   definition: {
@@ -17,7 +18,8 @@ const options = {
     // ],
     servers: [
       {
-        url: 'https://invetorybackend.onrender.com',
+        // url: 'https://invetorybackend.onrender.com',
+        url: 'https://invetory-backend-2qkn.onrender.com',
       },
     ],
     components: {
