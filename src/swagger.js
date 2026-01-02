@@ -11,14 +11,8 @@ const options = {
       version: '1.0.0',
       description: 'API quản lý sản phẩm & đơn hàng cho frontend',
     },
-    // servers: [
-    //   {
-    //     url: 'http://localhost:4000',
-    //   },
-    // ],
     servers: [
       {
-        // url: 'https://invetorybackend.onrender.com',
         url: 'https://invetory-backend-2qkn.onrender.com',
       },
     ],
